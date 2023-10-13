@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
 .users {
+  font-family: 'Poppins', sans-serif;
     margin: 2rem auto;
     width: 90%;
     max-width: 40rem;
