@@ -1,0 +1,23 @@
+/* Import the Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/* Apply the Poppins font to the button */
+.button {
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #dcbc55;
+    background: #debc49;
+    color: rgb(0, 0, 0);
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button:hover,
+.button:active {
+    background: #6b590e;
+    border-color: #6b590e;
+}
+
+.button:focus {
+    outline: none;
+}
